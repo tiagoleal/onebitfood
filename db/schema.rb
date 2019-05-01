@@ -92,7 +92,7 @@ ActiveRecord::Schema.define(version: 2019_05_01_012223) do
     t.string "city"
     t.string "street"
     t.string "neighborhood"
-    t.string "bumber"
+    t.string "number"
     t.string "complement"
     t.string "references"
     t.string "cep"
