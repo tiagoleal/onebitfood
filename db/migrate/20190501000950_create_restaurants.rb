@@ -11,7 +11,7 @@ class CreateRestaurants < ActiveRecord::Migration[5.2]
       t.string :neighborhood
       t.string :number
       t.string :complement
-      t.string :references
+      t.string :reference
       t.string :cep
       t.float :latitude
       t.float :longitude

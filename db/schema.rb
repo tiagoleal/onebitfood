@@ -94,7 +94,7 @@ ActiveRecord::Schema.define(version: 2019_05_01_012223) do
     t.string "neighborhood"
     t.string "number"
     t.string "complement"
-    t.string "references"
+    t.string "reference"
     t.string "cep"
     t.float "latitude"
     t.float "longitude"
