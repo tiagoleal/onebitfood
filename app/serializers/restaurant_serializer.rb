@@ -1,6 +1,6 @@
 class RestaurantSerializer < ActiveModel::Serializer
   include Rails.application.routes.url_helpers
-
+ 
   attributes :id, :name, :description, :review, :status, :delivery_tax, :state,
     :city, :street, :neighborhood, :number, :complement,
     :reference, :cep, :image_url, :category_title
